@@ -1,5 +1,7 @@
 # Minecraft-PSP-Revival
-A continuation of Minecraft PSP 2.0 cuz i wanted to avenge VenuSoftware and Regen Studios
+A continuation of Minecraft PSP 3.0 cuz i wanted to avenge VenuSoftware and Regen Studios
+
+Original source code: https://drive.google.com/file/d/12uGYOmN9E9GV0Ux3FHnSdZbGxxPzsxDI/view?usp=sharing
 
 Source Code not ready to be shared 
 
