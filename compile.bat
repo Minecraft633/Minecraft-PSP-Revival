@@ -1,4 +1,4 @@
-PATH=c:\pspsdk\bin;%cd%;
+PATH=C:\pspdev\bin;%cd%;
 make clean
 make
 pause
