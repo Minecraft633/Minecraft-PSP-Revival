@@ -1,5 +1,5 @@
 # Minecraft-PSP-Revival
-A continuation of Minecraft PSP 3.0 cuz i wanted to avenge VenuSoftware and Regen Studios
+A continuation of Minecraft PSP 3.0.1 Beta 0.8 cuz i wanted to avenge VenuSoftware and Regen Studios
 
 3.0.0 source code: https://drive.google.com/file/d/12uGYOmN9E9GV0Ux3FHnSdZbGxxPzsxDI/view?usp=sharing
 
