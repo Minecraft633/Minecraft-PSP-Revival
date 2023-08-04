@@ -1,0 +1,49 @@
+(Block + Item Locations)
+- Blocks.cpp
+- Blocks.h
+- CraftWorld2.cpp
+- StatePlayCreative.cpp // Creative inventory blocks.
+- Items.h
+- Items.cpp
+--------------------------------
+(Standard Rules)
+- 250 is where items begin. New blocks need a return statement that is negative because blocks and items can't share return values.
+--------------------------------
+(Disabled Blocks + Items)
+
+OrangeGlassBlockPannel
+BrownGlassBlockPannel
+LGrayGlassBlockPannel
+DBlueGlassBlockPannel
+LBlueGlassBlockPannel
+DPurpleGlassBlockPannel
+DGreenGlassBlockPannel
+GrayGlassBlockPannel
+redstone_lamp
+lit_redstone_lamp
+light_gray_concrete_powder
+orange_concrete_powder
+light_blue_concrete_powder
+brown_concrete_powder
+WhiteGlassBlockPannel
+OrangeGlassBlock
+WhiteGlassBlock
+LGrayGlassBlock
+DBlueGlassBlock
+LBlueGlassBlock
+DPurpleGlassBlock
+DGreenGlassBlock
+GrayGlassBlock
+cyan_concrete_powder
+lime_concrete_powder
+magenta_concrete_powder
+
+OrangeGlassBlockPannelItem
+LGrayGlassBlockPannelItem
+DBlueGlassBlockPannelItem
+LBlueGlassBlockPannelItem
+DGreenGlassBlockPannelItem
+DPurpleGlassBlockPannelItem
+GrayGlassBlockPannelItem
+WhiteGlassBlockPannelItem
+BrownGlassBlockPannelItem

@@ -1,0 +1,29 @@
+// Not all of these are used by default. The purpose of this is to show you what you can add.
+
+mRender->DebugPrint(240,34,"world iron ore %i",mWorld->mainWorldVariables.worldIronOre);
+mRender->DebugPrint(240,44,"world coal ore %i",mWorld->mainWorldVariables.worldCoalOre);
+mRender->DebugPrint(240,54,"world golden ore %i",mWorld->mainWorldVariables.worldGoldenOre);
+mRender->DebugPrint(240,64,"world diamond ore %i",mWorld->mainWorldVariables.worldDiamondOre);
+mRender->DebugPrint(240,74,"world redstone ore %i",mWorld->mainWorldVariables.worldRedstoneOre);
+mRender->DebugPrint(240,84,"world lapis ore %i",mWorld->mainWorldVariables.worldLapisOre);
+mRender->DebugPrint(240,94,"world clay %i",mWorld->mainWorldVariables.worldClay);
+mRender->DebugPrint(20,24,"fps: %d",average_fps+1);
+mRender->DebugPrint(20,34,"cpu: %d%%",mRender->GetCpuUsage());
+mRender->DebugPrint(20,44,"gpu: %d%%",mRender->GetGpuUsage());
+mRender->DebugPrint(20,54,"free memory: %d kb (%d mb)",freeMemory/1024,(freeMemory/1024)/1024);
+mRender->DebugPrint(20,64,"polygons: %d",(mWorld->GetDrawntTrianglesCount() / 3));
+mRender->DebugPrint(20,74,"vertices: %d",mWorld->GetDrawntTrianglesCount());
+mRender->DebugPrint(20,84,"world time: %f",mWorld->worldDayTime);
+mRender->DebugPrint(20,94,"camera angle: %f",fppCam->horAngle);
+mRender->DebugPrint(20,104,"player.x: %f",playerPosition.x);
+mRender->DebugPrint(20,114,"player.y: %f",playerPosition.y);
+mRender->DebugPrint(20,124,"player.z: %f",playerPosition.z);
+mRender->DebugPrint(20,134,"walkingonground: %d",walkingOnGround);
+mRender->DebugPrint(20,144,"veloc.y: %f",playerVelocity.y);
+mRender->DebugPrint(20,154,"aim block id: %i",mWorld->GetBlock(cubePos.x,cubePos.y,cubePos.z));
+mRender->DebugPrint(20,164,"skyTime: %f",mWorld->skyTime);
+mRender->DebugPrint(20,154,"Chunks in process : %d",mWorld->toUpdate.size());
+mRender->DebugPrint(20,184,"size of vector zombies : %d",mWorld->mZombies.size());
+mRender->DebugPrint(20,194,"size of vector cows : %d",mWorld->mCows.size());
+mRender->DebugPrint(20,204," size of vector Drops : %i", mWorld->mDrops.size());
+mRender->DebugPrint(20,214," size of vector updatingChunks : %i", mWorld->updatingChunks.size());

@@ -1,0 +1,78 @@
+// This is where I put what I've done and what needs done for the update notes.
+(Unfinished)
+- Added Legacy Console UI X
+- New Snowball's Damage Mobs
+- Load crash
+- Added Skin Support
+- New Menu Analog Support X
+- New RAM Settings
+- New Entity Shadows
+- New Mobs
+- Block Breaking Fix
+- Feeding Mobs
+- New Camera Views
+- New Leave Degeneration
+- New Blocks
+- Create New world Pic
+- Basic Redstone
+- New Fishing
+- Paper Doll
+- Portals
+- Multiplayer
+
+- Version Name
+--------------------------------
+(Basic Mod Ideas)
+- Player Mob
+- Herobrine
+- Giant Mobs
+- Fly In Survival
+- No Hunger
+- No Experience
+--------------------------------
+(Finished)
+- New Sprint Feature
+- New Mob Health Amounts
+- New Experience System
+- New Clear Quick Select (Square)
+- New 3D Clouds
+- New Panorama System
+- New Death Screen
+- New Hand Position & Animations
+- New World Boarders
+- New Skybox
+- New Font
+- New Camera Effects
+- New Drop Item Animation
+- New HUD Mipmapping
+- New Seamless Music System
+- New Debug Mode
+
+- Better Flying Mechanics
+- Better Hitboxes
+- Better Block Physics
+- Better Mob AI
+- Better Mob Spawning
+- Better Infinite Blocks (Creative Mode)
+- Better Item Despawn Timing (5 Minutes)
+- Better Sleep Cycle
+- Better World Converter
+- Better Fancy Graphics
+- Better Lighting
+- Better World Generation
+- Better Particle Effects
+- Better Fog
+- Better Sound System
+- Better Default Control Scheme
+
+- Fixed Soil Render Glitch
+- Fixed Camera Rotation Glitch
+- Fixed Fire Shading
+- Fixed HUD Alignment
+- Fixed Hitting Mobs in Creative
+- Fixed Missing Menu Sounds
+
+- Source Reorganization
+- Log Shows Errors
+- Documentation + Tools
+- Miscellaneous Optimizations + Changes
