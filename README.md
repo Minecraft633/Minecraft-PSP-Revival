@@ -5,9 +5,7 @@ A continuation of Minecraft PSP 3.0.1 Beta 0.8 cuz i wanted to avenge VenuSoftwa
 
 3.0.1 source code: https://drive.google.com/file/d/1BL_WH9-pyLNwAv2n6pXb34pQNLPAu1tN/view?usp=sharing
 
-Source Code not ready to be shared 
-
-Installation (When source code is shared)
+Installation
 
 1. Download and install latest Minimalist PSPSDK from http://sourceforge.net/projects/minpspw/ for your platform.
 2. Rename the "pspsdk" folder to "pspdev" and make an environment variable for it in PATH, make sure the variable says Path and the name is C:/pspdev/bin;
