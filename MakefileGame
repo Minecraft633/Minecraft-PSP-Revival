@@ -1,0 +1,104 @@
+TARGET = Minecraft
+OBJS = Source/Aurora/Math/MathLib.o \
+Source/Aurora/Math/Matrix3.o \
+Source/Aurora/Math/Matrix4.o \
+Source/Aurora/Math/Quaternion.o \
+Source/Aurora/Math/BoundingBox.o \
+Source/Aurora/Math/BoundingSphere.o \
+Source/Aurora/Math/Plane.o \
+Source/Aurora/Math/Ray.o \
+Source/Aurora/Math/Frustum.o \
+Source/Aurora/Math/Polygon.o \
+Source/Aurora/Graphics/common.o \
+Source/Aurora/Graphics/vfram.o \
+Source/Aurora/Graphics/vram.o \
+Source/Aurora/Graphics/RenderManager.o \
+Source/Aurora/Graphics/TextureManager.o \
+Source/Aurora/Graphics/Camera.o \
+Source/Aurora/Graphics/Sprite.o \
+Source/Aurora/Graphics/Models/ObjModel.o \
+Source/Aurora/Graphics/Models/ObjModel.o \
+Source/Aurora/Graphics/intraFont/libccc.o \
+Source/Aurora/Graphics/intraFont/intraFont.o \
+Source/Aurora/Utils/Logger.o \
+Source/Aurora/Utils/Timer.o \
+Source/Aurora/Utils/StateManager.o \
+Source/Aurora/Utils/pgeZip.o \
+Source/Aurora/Utils/pge.o \
+Source/Aurora/Utils/pgeDir.o \
+Source/Aurora/System/SystemManager.o \
+Source/Aurora/System/NetworkManager.o \
+Source/BaseBlock.o \
+Source/Blocks.o \
+Source/BaseItem.o \
+Source/Items.o \
+Source/SimpleMeshChunk.o \
+Source/ChunkDataProvider.o \
+Source/BlockEntity.o \
+Source/NoteBlockEntity.o \
+Source/JukeboxEntity.o \
+Source/MonsterSpawnerEntity.o \
+Source/ItemFrameEntity.o \
+Source/Chest.o \
+Source/DirectionBlock.o \
+Source/Furnace.o \
+Source/CraftWorld.o \
+Source/Mobs/Mob.o \
+Source/Mobs/Zombie.o \
+Source/Mobs/Cow.o \
+Source/Mobs/PIG.o \
+Source/Mobs/Creeper.o \
+Source/Mobs/Sheep.o \
+Source/StateMenu.o \
+Source/StateOptions.o \
+Source/StatePlayCreative.o \
+Source/StatePlay.o \
+Source/LoadingScreen.o \
+Source/mersenne-twister.o \
+Source/SplashScreen.o \
+Source/InputHelper.o \
+Source/TextureHelper.o \
+Source/sound_utils/pgeWav.o \
+Source/SoundManager.o \
+Source/Aurora/Graphics/Effects/Drop.o \
+Source/Aurora/Graphics/Effects/TNT.o \
+Source/Aurora/Graphics/Effects/InventoryPlayer.o \
+Source/Aurora/Graphics/Effects/SnowBall.o \
+Source/Aurora/Graphics/Effects/SkyLight.o \
+Source/Aurora/Graphics/Effects/SkyBox.o \
+Source/Aurora/Graphics/Effects/Destroyer.o \
+Source/Aurora/Graphics/Effects/StarsBox.o \
+Source/Aurora/Graphics/Effects/Particle.o \
+Source/Aurora/Graphics/Effects/WeatherSystem.o \
+Source/SimplexNoise.o \
+Source/WorldGenerator.o \
+Source/sound_utils/vfsFile.o \
+Source/sound_utils/VirtualFile.o \
+Source/sound_utils/audio.o \
+Source/sound_utils/bgm.o \
+Source/sound_utils/media.o \
+Source/sound_utils/mod.o \
+Source.o
+
+INCDIR = $(PSPPATH)/include
+INCDIR += ./include ./Source ./3libs
+CFLAGS = -O3 -G0 -Wall -mpreferred-stack-boundary=4 #-enable-newlib-hw-fp -ffast-math
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+ASFLAGS = $(CFLAGS)
+
+BUILD_PRX = 1
+PSP_FW_VERSION=371
+PSP_LARGE_MEMORY = 1
+
+LIBDIR += ./Source/3libs/noisepp ./3libs/libpspmath
+LDFLAGS =
+LIBS=  -lNoisepp -lpspaudiolib -lpspaudio -lmikmod -lmmio -lpspaudiocodec -lpng -lz -lpspgum -lpspgu -lstdc++ -lpsprtc -lpspctrl -lm -lpspvfpu -lpspsdk -lpsppower -lpsphttp -lpspmath #-lpsp_req -lcurl -lTiny
+
+EXTRA_TARGETS = EBOOT.PBP
+PSP_EBOOT_TITLE = Minecraft: PlayStation(R)Portable
+PSP_EBOOT_ICON = ICON0.PNG
+PSP_EBOOT_PIC1 = PIC1.PNG
+PSP_EBOOT_SND0 = SND0.AT3
+
+PSPSDK=$(shell psp-config --pspsdk-path)
+include $(PSPSDK)/lib/build.mak
