@@ -1,4 +1,4 @@
-TARGET = Tutorial1
+TARGET = Tutoria
 OBJS = Source/Aurora/Math/MathLib.o \
 Source/Aurora/Math/Matrix3.o \
 Source/Aurora/Math/Matrix4.o \
