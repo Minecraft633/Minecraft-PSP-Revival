@@ -1,7 +1,0 @@
-mOptions = StateOptions
-mRender = RenderManager
-mSystemMGr = SystemManager
-mSoundMGr = SoundManager
-mIhelper = InputHelper
-fppCam = Camera
-mWorld = CraftWorld
